@@ -1,0 +1,36 @@
+$button-color: #2ea3f2;
+
+.mini-footer {
+  padding: 15px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  background: #fff;
+  font-size: 11px;
+
+  a {
+    color: $button-color;
+    text-decoration: underline;
+    &:hover {
+      color: $button-color;
+      text-decoration: none;
+    }
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+footer {
+  clear: both;
+  position: relative;
+}
+
+@media (max-width: 991px) {
+  .footer-menu {
+    padding-left: 0;
+  }
+}

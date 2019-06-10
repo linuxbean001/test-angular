@@ -1,0 +1,31 @@
+$button-color: #2ea3f2;
+$primary-color: #fff;
+
+.simple-login-container {
+  width: 500px;
+  max-width: 100%;
+  margin: 50px auto;
+
+  h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    color: $button-color;
+  }
+
+  input {
+    margin-bottom: 15px;
+  }
+
+  .btn-login {
+    background-color: $button-color;
+    color: $primary-color;
+  }
+
+  a {
+    color: $primary-color;
+  }
+
+  @media (max-width: 760px) {
+    width: 300px;
+  }
+}

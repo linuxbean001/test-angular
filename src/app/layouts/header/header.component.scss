@@ -1,0 +1,54 @@
+$button-color: #2ea3f2;
+$white: #fff;
+
+header {
+  .navbar {
+    background-color: #333333;
+
+    img {
+      width: auto;
+      height: 40px;
+      right: 30px;
+      position: relative;
+    }
+
+    a {
+      color: $button-color;
+      padding: 8px 20px;
+      text-decoration: none;
+      font-size: 20px;
+      font-size: 16px;
+
+      i {
+        color: $white;
+      }
+    }
+
+    .mobile-bar {
+      display: block;
+
+      i {
+        color: #fff;
+      }
+    }
+
+    .text-name {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  img {
+    width: 350px !important;
+    height: 45px !important;
+  }
+
+  .mobile-bar {
+    display: none !important;
+  }
+
+  .text-name {
+    display: block !important;
+  }
+}
